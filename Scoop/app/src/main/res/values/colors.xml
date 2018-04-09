@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <!-- section colors: https://htmlcolorcodes.com/-->
+    <color name="politics">#C0392B</color>
+    <color name="sport">#EC7063</color>
+    <color name="media">#E74C3C</color>
+    <color name="ukNews">#9B59B6</color>
+    <color name="film">#8E44AD</color>
+    <color name="culture">#2980B9</color>
+    <color name="usNews">#2E86C1</color>
+    <color name="globalDevelopment">#3498DB</color>
+    <color name="football">#1ABC9C</color>
+    <color name="australiaNews">#16A085</color>
+    <color name="worldNews">#27AE60</color>
+    <color name="environment">#28B463</color>
+    <color name="televisionRadio">#2ECC71</color>
+    <color name="books">#F1C40F</color>
+    <color name="games">#F39C12</color>
+    <color name="education">#E67E22</color>
+    <color name="voluntarySectorNetWork">#D35400</color>
+    <color name="money">#ECF0F1</color>
+    <color name="opinion">#BDC3C7</color>
+    <color name="business">#95A5A6</color>
+    <color name="travel">#D4AC0D</color>
+    <color name="technology">#F7DC6F</color>
+    <color name="science">#73C6B6</color>
+    <color name="music">#EDBB99</color>
+    <color name="lifeAndStyle">#7DCEA0  </color>
+    <color name="fashion">#C39BD3</color>
+    <color name="notSpecified">#000000</color>
+</resources>

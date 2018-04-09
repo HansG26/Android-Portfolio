@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="search_through">Search through millions of books</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_books_found">No books were found.</string>
+    <string name="google_url">https://www.googleapis.com/books/v1/volumes?q=</string>
+    <string name="url_parameters"><![CDATA[&maxResults=10&printType=books]]></string>
+</resources>

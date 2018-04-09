@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_section_labels">
+        <item>@string/settings_all_label</item>
+        <item>@string/settings_books_label</item>
+        <item>@string/settings_business_label</item>
+        <item>@string/settings_culture_label</item>
+        <item>@string/settings_fashion_label</item>
+        <item>@string/settings_film_label</item>
+        <item>@string/settings_football_label</item>
+        <item>@string/settings_games_label</item>
+        <item>@string/settings_life_and_style_label</item>
+        <item>@string/settings_media_label</item>
+        <item>@string/settings_music_label</item>
+        <item>@string/settings_politics_label</item>
+        <item>@string/settings_science_label</item>
+        <item>@string/settings_sport_label</item>
+        <item>@string/settings_technology_label</item>
+        <item>@string/settings_travel_label</item>
+        <item>@string/settings_world_label</item>
+
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_all_value</item>
+        <item>@string/settings_books_value</item>
+        <item>@string/settings_business_value</item>
+        <item>@string/settings_culture_value</item>
+        <item>@string/settings_fashion_value</item>
+        <item>@string/settings_film_value</item>
+        <item>@string/settings_football_value</item>
+        <item>@string/settings_games_value</item>
+        <item>@string/settings_life_and_style_value</item>
+        <item>@string/settings_media_value</item>
+        <item>@string/settings_music_value</item>
+        <item>@string/settings_politics_value</item>
+        <item>@string/settings_science_value</item>
+        <item>@string/settings_sport_value</item>
+        <item>@string/settings_technology_value</item>
+        <item>@string/settings_travel_value</item>
+        <item>@string/settings_world_value</item>
+    </string-array>
+</resources>

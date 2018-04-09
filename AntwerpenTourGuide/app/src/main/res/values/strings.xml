@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Antwerpen Tour Guide</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Namen Musea -->
+    <string name="museum_aan_de_stroom">Museum aan de Stroom</string>
+
+    <!-- Adressen Musea -->
+    <string name="adres_museum_aan_de_stroom">Hanzestedenplaats 1</string>
+
+</resources>

@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Scoop</string>
+    <string name="no_internet_connection">You have no internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Scoop Settings</string>
+
+    <!-- Strings For Section Preference [CHAR LIMIT=30] -->
+    <string name="settings_section_label">Choose a section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">all</string>
+
+    <!-- Label for section All [CHAR LIMIT=20] -->
+    <string name="settings_all_label">All</string>
+    <string name="settings_all_value" translatable="false">all</string>
+
+    <!-- Label for section Books [CHAR LIMIT=20] -->
+    <string name="settings_books_label">Books</string>
+    <string name="settings_books_value" translatable="false">books</string>
+
+    <!-- Label for section Business [CHAR LIMIT=20] -->
+    <string name="settings_business_label">Business</string>
+    <string name="settings_business_value" translatable="false">business</string>
+
+    <!-- Label for section Culture [CHAR LIMIT=20] -->
+    <string name="settings_culture_label">Culture</string>
+    <string name="settings_culture_value" translatable="false">culture</string>
+
+    <!-- Label for section Fashion [CHAR LIMIT=20] -->
+    <string name="settings_fashion_label">Fashion</string>
+    <string name="settings_fashion_value" translatable="false">fashion</string>
+
+    <!-- Label for section Film [CHAR LIMIT=20] -->
+    <string name="settings_film_label">Film</string>
+    <string name="settings_film_value" translatable="false">film</string>
+
+    <!-- Label for section Football [CHAR LIMIT=20] -->
+    <string name="settings_football_label">Football</string>
+    <string name="settings_football_value" translatable="false">football</string>
+
+    <!-- Label for section Games [CHAR LIMIT=20] -->
+    <string name="settings_games_label">Games</string>
+    <string name="settings_games_value" translatable="false">games</string>
+
+    <!-- Label for section Life and Style [CHAR LIMIT=20] -->
+    <string name="settings_life_and_style_label">Life and Style</string>
+    <string name="settings_life_and_style_value" translatable="false">lifeandstyle</string>
+
+    <!-- Label for section Media [CHAR LIMIT=20] -->
+    <string name="settings_media_label">Media</string>
+    <string name="settings_media_value" translatable="false">media</string>
+
+    <!-- Label for section Music [CHAR LIMIT=20] -->
+    <string name="settings_music_label">Music</string>
+    <string name="settings_music_value" translatable="false">music</string>
+
+    <!-- Label for section Politics [CHAR LIMIT=20] -->
+    <string name="settings_politics_label">Politics</string>
+    <string name="settings_politics_value" translatable="false">politics</string>
+
+    <!-- Label for section Science [CHAR LIMIT=20] -->
+    <string name="settings_science_label">Science</string>
+    <string name="settings_science_value" translatable="false">science</string>
+
+    <!-- Label for section Sport [CHAR LIMIT=20] -->
+    <string name="settings_sport_label">Sport</string>
+    <string name="settings_sport_value" translatable="false">sport</string>
+
+    <!-- Label for section Technology [CHAR LIMIT=20] -->
+    <string name="settings_technology_label">Technology</string>
+    <string name="settings_technology_value" translatable="false">technology</string>
+
+    <!-- Label for section Travel [CHAR LIMIT=20] -->
+    <string name="settings_travel_label">Travel</string>
+    <string name="settings_travel_value" translatable="false">travel</string>
+
+    <!-- Label for section World [CHAR LIMIT=20] -->
+    <string name="settings_world_label">World</string>
+    <string name="settings_world_value" translatable="false">world</string>
+</resources>

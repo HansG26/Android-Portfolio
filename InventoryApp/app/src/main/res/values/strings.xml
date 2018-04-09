@@ -1,0 +1,57 @@
+<resources>
+    <!-- Title Action Bar activity_overview -->
+    <string name="app_name">Inventory App</string>
+
+    <!-- Title Action Bar activity_detail - Adding new product -->
+    <string name="add_product">Add Product</string>
+
+    <!-- Title Action Bar activity_detail - Editing existing product -->
+    <string name="edit_product">Edit Product</string>
+
+    <!-- Menu title for deleting all products-->
+    <string name="delete_all_products">Delete all products</string>
+
+    <!-- Hint EditText for product name in DetailActivity -->
+    <string name="product_name">Product name</string>
+
+    <!-- Hint EditText for price in DetailActivity -->
+    <string name="price">Price</string>
+
+    <!-- Hint EditText for quantity in DetailActivity -->
+    <string name="quantity">Quantity</string>
+
+    <!-- Hint EditText for supplier name in DetailActivity -->
+    <string name="supplier_name">Supplier name</string>
+
+    <!-- Menu title for deleting a product-->
+    <string name="delete_product">Delete product</string>
+
+        <!-- Menu title for saving a product-->
+    <string name="save_product">Save</string>
+
+    <!-- Subject of the email -->
+    <string name="email_subject">Order: </string>
+
+    <!-- Price TextView in list item view-->
+    <string name="price_textview">€</string>
+
+    <!-- Text displayed on button for changing picture -->
+    <string name="change_picture">Select Picture</string>
+
+    <!-- Text shown in toast when not all required information is filled in -->
+    <string name="required_information">Missing required information</string>
+    <string name="no_items_in_inventory">No items in inventory</string>
+
+    <!-- Message shown in 'delete all' dialog-->
+    <string name="delete_all_dialog_message">Are you sure you want to delete all products?</string>
+
+    <!-- Positive answer shown in 'delete all' dialog-->
+    <string name="delete_all_dialog_positive">Yes</string>
+
+    <!-- Negative answer shown in 'delete all' dialog-->
+    <string name="delete_all_dialog_negative">No</string>
+
+    <!-- Message shown in 'delete product' dialog-->
+    <string name="delete_product_dialog_message">Are you sure you want to delete this product?</string>
+
+</resources>

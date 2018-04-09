@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/change_picture_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:padding="8dp"
+                android:text="@string/change_picture"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_create_black_24dp" />
+
+                <EditText
+                    android:id="@+id/product_name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/product_name"
+                    android:inputType="textCapWords" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_person_black_24dp" />
+
+                <EditText
+                    android:id="@+id/supplier_name_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="16dp"
+                    android:hint="@string/supplier_name"
+                    android:inputType="textCapWords" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_euro_symbol_black_24dp" />
+
+                <EditText
+                    android:id="@+id/price_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:hint="@string/price"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp" />
+
+                <EditText
+                    android:id="@+id/quantity_edittext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_weight="1"
+                    android:hint="@string/quantity"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="32dp"
+            android:src="@drawable/ic_mail_outline_white_24dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

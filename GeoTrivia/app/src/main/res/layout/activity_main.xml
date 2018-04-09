@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wereldbol" />
+
+        <TextView
+            style="@style/hoofding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meerkeuzevragen" />
+
+        <TextView
+            style="@style/punten"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1 punt per goed antwoord" />
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 1:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welk gebied heeft de grootste oppervlakte, het land Luxemburg of de Belgische provincie Luxemburg?" />
+
+        <TextView
+            android:id="@+id/luxemburg_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De provincie Luxemburg" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Het land Luxemburg" />
+
+            <RadioButton
+                android:id="@+id/provincie_luxemburg_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="De provincie Luxemburg" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 2:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="In welk van volgende drie landen zijn de bergen het hoogst?" />
+
+        <TextView
+            android:id="@+id/turkije_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turkije" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/turkije_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turkije" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frankrijk" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spanje" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 3:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Is de bekende Mont Ventoux uit de Ronde van Frankrijk hoger of lager dan 2000 meter?" />
+
+        <TextView
+            android:id="@+id/mont_ventoux_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lager dan 2000 meter" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoger dan 2000 meter" />
+
+            <RadioButton
+                android:id="@+id/mont_ventoux_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lager dan 2000 meter" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 4:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hoeveel Europese landen hebben het Italiaans als officiële taal?" />
+
+        <TextView
+            android:id="@+id/italiaans_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <RadioButton
+                android:id="@+id/italiaans_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 5:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="In welk land ligt het langste stukje van de rivier de Maas?" />
+
+        <TextView
+            android:id="@+id/maas_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frankrijk" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nederland" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="België" />
+
+            <RadioButton
+                android:id="@+id/maas_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frankrijk" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 6:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Komt de maan op in het westen of in het oosten?" />
+
+        <TextView
+            android:id="@+id/maan_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oosten" />
+
+        <RadioGroup
+            style="@style/meerkeuzeantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Westen" />
+
+            <RadioButton
+                android:id="@+id/maan_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oosten" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/hoofding"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Bonusvragen" />
+
+        <TextView
+            style="@style/punten"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2 punten per goed antwoord" />
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 7:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Welk Europees land heeft geen officiële hoofdstad?" />
+
+        <TextView
+            android:id="@+id/hoofdstad_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zwitserland" />
+
+        <EditText
+            android:id="@+id/hoofdstad_edittext"
+            style="@style/openantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/vraagnummer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Vraag 8:" />
+
+        <TextView
+            style="@style/vragen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Welke stad vervolledigt de titel van een hit van de Simple Minds uit 1989, “… Child”?" />
+
+        <TextView
+            android:id="@+id/simple_minds_juist"
+            style="@style/juistantwoord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boston" />
+
+        <EditText
+            android:id="@+id/simple_minds_edittext"
+            style="@style/openantwoorden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            style="@style/controleer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="controleer"
+            android:text="Controleer je antwoorden!" />
+
+    </LinearLayout>
+</ScrollView>

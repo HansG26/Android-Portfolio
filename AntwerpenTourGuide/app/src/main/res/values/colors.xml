@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222222</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FBC02D</color>
+    <color name="musea">#FBC02D</color>
+    <color name="restaurants">#8BC34A</color>
+    <color name="nightlife">#E91E63</color>
+    <color name="varia">#0288D1</color>
+</resources>
