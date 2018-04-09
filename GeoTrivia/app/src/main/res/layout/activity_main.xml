@@ -18,32 +18,33 @@
             style="@style/hoofding"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Meerkeuzevragen" />
+            android:text="@string/meerkeuzevragen" />
 
         <TextView
             style="@style/punten"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="1 punt per goed antwoord" />
+            android:text="@string/punt_per_goed_antwoord" />
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 1:" />
+            android:text="@string/vraag_1" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Welk gebied heeft de grootste oppervlakte, het land Luxemburg of de Belgische provincie Luxemburg?" />
+            android:text="@string/vraag_luxemburg" />
+
 
         <TextView
             android:id="@+id/luxemburg_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="De provincie Luxemburg" />
+            android:text="@string/de_provincie_luxemburg" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -53,33 +54,33 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Het land Luxemburg" />
+                android:text="@string/het_land_luxemburg" />
 
             <RadioButton
                 android:id="@+id/provincie_luxemburg_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="De provincie Luxemburg" />
+                android:text="@string/de_provincie_luxemburg" />
         </RadioGroup>
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 2:" />
+            android:text="@string/vraag_2" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="In welk van volgende drie landen zijn de bergen het hoogst?" />
+            android:text="@string/vraag_bergen" />
 
         <TextView
             android:id="@+id/turkije_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Turkije" />
+            android:text="@string/turkije" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -90,37 +91,37 @@
                 android:id="@+id/turkije_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Turkije" />
+                android:text="@string/turkije" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Frankrijk" />
+                android:text="@string/frankrijk" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Spanje" />
+                android:text="@string/spanje" />
         </RadioGroup>
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 3:" />
+            android:text="@string/vraag_3" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Is de bekende Mont Ventoux uit de Ronde van Frankrijk hoger of lager dan 2000 meter?" />
+            android:text="@string/vraag_mont_ventoux" />
 
         <TextView
             android:id="@+id/mont_ventoux_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lager dan 2000 meter" />
+            android:text="@string/lager_dan_2000_meter" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -130,33 +131,33 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hoger dan 2000 meter" />
+                android:text="@string/hoger_dan_2000_meter" />
 
             <RadioButton
                 android:id="@+id/mont_ventoux_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="lager dan 2000 meter" />
+                android:text="@string/lager_dan_2000_meter" />
         </RadioGroup>
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 4:" />
+            android:text="@string/vraag_4" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Hoeveel Europese landen hebben het Italiaans als officiële taal?" />
+            android:text="@string/vraag_italiaans" />
 
         <TextView
             android:id="@+id/italiaans_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="4" />
+            android:text="@string/_4" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -166,38 +167,38 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2" />
+                android:text="@string/_2" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="3" />
+                android:text="@string/_3" />
 
             <RadioButton
                 android:id="@+id/italiaans_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4" />
+                android:text="@string/_4" />
         </RadioGroup>
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 5:" />
+            android:text="@string/vraag_5" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="In welk land ligt het langste stukje van de rivier de Maas?" />
+            android:text="@string/vraag_maas" />
 
         <TextView
             android:id="@+id/maas_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Frankrijk" />
+            android:text="@string/frankrijk" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -207,38 +208,38 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nederland" />
+                android:text="@string/nederland" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="België" />
+                android:text="@string/belgi" />
 
             <RadioButton
                 android:id="@+id/maas_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Frankrijk" />
+                android:text="@string/frankrijk" />
         </RadioGroup>
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 6:" />
+            android:text="@string/vraag_6" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Komt de maan op in het westen of in het oosten?" />
+            android:text="@string/vraag_maan" />
 
         <TextView
             android:id="@+id/maan_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Oosten" />
+            android:text="@string/oosten" />
 
         <RadioGroup
             style="@style/meerkeuzeantwoorden"
@@ -248,45 +249,45 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Westen" />
+                android:text="@string/westen" />
 
             <RadioButton
                 android:id="@+id/maan_radio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Oosten" />
+                android:text="@string/oosten" />
         </RadioGroup>
 
         <TextView
             style="@style/hoofding"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Bonusvragen" />
+            android:text="@string/bonusvragen" />
 
         <TextView
             style="@style/punten"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="2 punten per goed antwoord" />
+            android:text="@string/_2_punten" />
 
         <TextView
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 7:" />
+            android:text="@string/vraag_7" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Welk Europees land heeft geen officiële hoofdstad?" />
+            android:text="@string/vraag_hoofdstad" />
 
         <TextView
             android:id="@+id/hoofdstad_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Zwitserland" />
+            android:text="@string/zwitserland" />
 
         <EditText
             android:id="@+id/hoofdstad_edittext"
@@ -298,20 +299,20 @@
             style="@style/vraagnummer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Vraag 8:" />
+            android:text="@string/vraag_8" />
 
         <TextView
             style="@style/vragen"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Welke stad vervolledigt de titel van een hit van de Simple Minds uit 1989, “… Child”?" />
+            android:text="@string/vraag_simple_minds" />
 
         <TextView
             android:id="@+id/simple_minds_juist"
             style="@style/juistantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Boston" />
+            android:text="@string/boston" />
 
         <EditText
             android:id="@+id/simple_minds_edittext"
@@ -324,7 +325,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="controleer"
-            android:text="Controleer je antwoorden!" />
+            android:text="@string/controleer" />
 
     </LinearLayout>
 </ScrollView>
