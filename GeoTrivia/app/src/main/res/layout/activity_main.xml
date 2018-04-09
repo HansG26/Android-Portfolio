@@ -11,6 +11,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:contentDescription="@string/wereldbol"
             android:scaleType="centerCrop"
             android:src="@drawable/wereldbol" />
 
