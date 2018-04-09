@@ -293,7 +293,8 @@
             android:id="@+id/hoofdstad_edittext"
             style="@style/openantwoorden"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/europees_land" />
 
         <TextView
             style="@style/vraagnummer"
@@ -318,7 +319,8 @@
             android:id="@+id/simple_minds_edittext"
             style="@style/openantwoorden"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="@string/stad" />
 
         <Button
             style="@style/controleer"
