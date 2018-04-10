@@ -14,6 +14,7 @@ import com.squareup.picasso.Picasso;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Aantal punten die speler behaalt
     private int totaalPunten;
 
     @Override
@@ -21,13 +22,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Vindt wereldbol_imageview in activity_main.xml
+        // Zet src attribute gelijk aan R.drawable.wereldbol (Picasso)
         ImageView imageView = findViewById(R.id.wereldbol_imageview);
         Picasso.get().load(R.drawable.wereldbol).into(imageView);
     }
 
+    // Code wordt opgeroepen bij drukken op 'controleer button'
     public void controleer(View v) {
+        // reset/zet totaalPunten gelijk aan 0
         totaalPunten = 0;
 
+        // Vindt Views in activity_main.xml
         RadioButton provincieLuxemburgRadio = findViewById(R.id.provincie_luxemburg_radio);
         RadioButton turkijeRadio = findViewById(R.id.turkije_radio);
         RadioButton montVentouxRadio = findViewById(R.id.mont_ventoux_radio);
@@ -35,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
         RadioButton maasRadio = findViewById(R.id.maas_radio);
         RadioButton maanRadio = findViewById(R.id.maan_radio);
 
-        TextView luxemburgJuistTextView = findViewById(R.id.luxemburg_juist);
-        TextView turkijeJuistTextView = findViewById(R.id.turkije_juist);
-        TextView montVentouxJuistTextView = findViewById(R.id.mont_ventoux_juist);
-        TextView italiaansJuistTextView = findViewById(R.id.italiaans_juist);
-        TextView maasJuistTextView = findViewById(R.id.maas_juist);
-        TextView maanJuistTextView = findViewById(R.id.maan_juist);
-        TextView hoofdstadJuistTextView = findViewById(R.id.hoofdstad_juist);
-        TextView simpleMindsJuistTextView = findViewById(R.id.simple_minds_juist);
+        TextView luxemburgVerbeterdTextView = findViewById(R.id.luxemburg_vebeterd);
+        TextView turkijeVerbeterdTextView = findViewById(R.id.turkije_verbeterd);
+        TextView montVentouxVebeterdTextView = findViewById(R.id.mont_ventoux_verbeterd);
+        TextView italiaansVebeterdTextView = findViewById(R.id.italiaans_verbeterd);
+        TextView maasVerbeterdTextView = findViewById(R.id.maas_verbeterd);
+        TextView maanVerbeterdTextView = findViewById(R.id.maan_verbeterd);
+        TextView hoofdstadVerbeterdTextView = findViewById(R.id.hoofdstad_verbeterd);
+        TextView simpleMindsVerbeterdTextView = findViewById(R.id.simple_minds_verbeterd);
 
         EditText hoofdstadEditText = findViewById(R.id.hoofdstad_edittext);
         String hoofdstad = hoofdstadEditText.getText().toString();
@@ -50,76 +56,80 @@ public class MainActivity extends AppCompatActivity {
         EditText simpleMindsEditText = findViewById(R.id.simple_minds_edittext);
         String simpleMinds = simpleMindsEditText.getText().toString();
 
-        luxemburgJuistTextView.setVisibility(View.VISIBLE);
-        turkijeJuistTextView.setVisibility(View.VISIBLE);
-        montVentouxJuistTextView.setVisibility(View.VISIBLE);
-        italiaansJuistTextView.setVisibility(View.VISIBLE);
-        maasJuistTextView.setVisibility(View.VISIBLE);
-        maanJuistTextView.setVisibility(View.VISIBLE);
-        hoofdstadJuistTextView.setVisibility(View.VISIBLE);
-        simpleMindsJuistTextView.setVisibility(View.VISIBLE);
+        // Maakt verbeterd antwwoord zichtbaar
+        luxemburgVerbeterdTextView.setVisibility(View.VISIBLE);
+        turkijeVerbeterdTextView.setVisibility(View.VISIBLE);
+        montVentouxVebeterdTextView.setVisibility(View.VISIBLE);
+        italiaansVebeterdTextView.setVisibility(View.VISIBLE);
+        maasVerbeterdTextView.setVisibility(View.VISIBLE);
+        maanVerbeterdTextView.setVisibility(View.VISIBLE);
+        hoofdstadVerbeterdTextView.setVisibility(View.VISIBLE);
+        simpleMindsVerbeterdTextView.setVisibility(View.VISIBLE);
 
+        // Controleer antwoorden
         if (provincieLuxemburgRadio.isChecked()) {
             totaalPunten++;
-            luxemburgJuistTextView.setTextColor(Color.GREEN);
+            luxemburgVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            luxemburgJuistTextView.setTextColor(Color.RED);
+            luxemburgVerbeterdTextView.setTextColor(Color.RED);
         }
 
         if (turkijeRadio.isChecked()) {
             totaalPunten++;
-            turkijeJuistTextView.setTextColor(Color.GREEN);
+            turkijeVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            turkijeJuistTextView.setTextColor(Color.RED);
+            turkijeVerbeterdTextView.setTextColor(Color.RED);
         }
 
         if (montVentouxRadio.isChecked()) {
             totaalPunten++;
-            montVentouxJuistTextView.setTextColor(Color.GREEN);
+            montVentouxVebeterdTextView.setTextColor(Color.GREEN);
         } else {
-            montVentouxJuistTextView.setTextColor(Color.RED);
+            montVentouxVebeterdTextView.setTextColor(Color.RED);
         }
 
         if (italiaansRadio.isChecked()) {
             totaalPunten++;
-            italiaansJuistTextView.setTextColor(Color.GREEN);
+            italiaansVebeterdTextView.setTextColor(Color.GREEN);
         } else {
-            italiaansJuistTextView.setTextColor(Color.RED);
+            italiaansVebeterdTextView.setTextColor(Color.RED);
         }
 
         if (maasRadio.isChecked()) {
             totaalPunten++;
-            maasJuistTextView.setTextColor(Color.GREEN);
+            maasVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            maasJuistTextView.setTextColor(Color.RED);
+            maasVerbeterdTextView.setTextColor(Color.RED);
         }
 
         if (maanRadio.isChecked()) {
             totaalPunten++;
-            maanJuistTextView.setTextColor(Color.GREEN);
+            maanVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            maanJuistTextView.setTextColor(Color.RED);
+            maanVerbeterdTextView.setTextColor(Color.RED);
         }
 
         if (hoofdstad.equals("Zwitserland") || hoofdstad.equals("zwitserland")) {
             totaalPunten += 2;
-            hoofdstadJuistTextView.setTextColor(Color.GREEN);
+            hoofdstadVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            hoofdstadJuistTextView.setTextColor(Color.RED);
+            hoofdstadVerbeterdTextView.setTextColor(Color.RED);
         }
 
         if (simpleMinds.equals("Boston") || simpleMinds.equals("boston")) {
             totaalPunten += 2;
-            simpleMindsJuistTextView.setTextColor(Color.GREEN);
+            simpleMindsVerbeterdTextView.setTextColor(Color.GREEN);
         } else {
-            simpleMindsJuistTextView.setTextColor(Color.RED);
+            simpleMindsVerbeterdTextView.setTextColor(Color.RED);
         }
 
+        // Laat Toast zien
         Toast toast = Toast.makeText(this, maakBericht(totaalPunten), Toast.LENGTH_SHORT);
         toast.show();
 
     }
 
+    // Maakt String die in Toast komt
     private String maakBericht(int punten) {
         return "Je behaalde " + punten + " op 10";
     }
