@@ -28,26 +28,26 @@ public class MainActivity extends AppCompatActivity {
     public void controleer(View v) {
         totaalPunten = 0;
 
-        RadioButton provincieLuxemburgRadio = (RadioButton) findViewById(R.id.provincie_luxemburg_radio);
-        RadioButton turkijeRadio = (RadioButton) findViewById(R.id.turkije_radio);
-        RadioButton montVentouxRadio = (RadioButton) findViewById(R.id.mont_ventoux_radio);
-        RadioButton italiaansRadio = (RadioButton) findViewById(R.id.italiaans_radio);
-        RadioButton maasRadio = (RadioButton) findViewById(R.id.maas_radio);
-        RadioButton maanRadio = (RadioButton) findViewById(R.id.maan_radio);
+        RadioButton provincieLuxemburgRadio = findViewById(R.id.provincie_luxemburg_radio);
+        RadioButton turkijeRadio = findViewById(R.id.turkije_radio);
+        RadioButton montVentouxRadio = findViewById(R.id.mont_ventoux_radio);
+        RadioButton italiaansRadio = findViewById(R.id.italiaans_radio);
+        RadioButton maasRadio = findViewById(R.id.maas_radio);
+        RadioButton maanRadio = findViewById(R.id.maan_radio);
 
-        TextView luxemburgJuistTextView = (TextView) findViewById(R.id.luxemburg_juist);
-        TextView turkijeJuistTextView = (TextView) findViewById(R.id.turkije_juist);
-        TextView montVentouxJuistTextView = (TextView) findViewById(R.id.mont_ventoux_juist);
-        TextView italiaansJuistTextView = (TextView) findViewById(R.id.italiaans_juist);
-        TextView maasJuistTextView = (TextView) findViewById(R.id.maas_juist);
-        TextView maanJuistTextView = (TextView) findViewById(R.id.maan_juist);
-        TextView hoofdstadJuistTextView = (TextView) findViewById(R.id.hoofdstad_juist);
-        TextView simpleMindsJuistTextView = (TextView) findViewById(R.id.simple_minds_juist);
+        TextView luxemburgJuistTextView = findViewById(R.id.luxemburg_juist);
+        TextView turkijeJuistTextView = findViewById(R.id.turkije_juist);
+        TextView montVentouxJuistTextView = findViewById(R.id.mont_ventoux_juist);
+        TextView italiaansJuistTextView = findViewById(R.id.italiaans_juist);
+        TextView maasJuistTextView = findViewById(R.id.maas_juist);
+        TextView maanJuistTextView = findViewById(R.id.maan_juist);
+        TextView hoofdstadJuistTextView = findViewById(R.id.hoofdstad_juist);
+        TextView simpleMindsJuistTextView = findViewById(R.id.simple_minds_juist);
 
-        EditText hoofdstadEditText = (EditText) findViewById(R.id.hoofdstad_edittext);
+        EditText hoofdstadEditText = findViewById(R.id.hoofdstad_edittext);
         String hoofdstad = hoofdstadEditText.getText().toString();
 
-        EditText simpleMindsEditText = (EditText) findViewById(R.id.simple_minds_edittext);
+        EditText simpleMindsEditText = findViewById(R.id.simple_minds_edittext);
         String simpleMinds = simpleMindsEditText.getText().toString();
 
         luxemburgJuistTextView.setVisibility(View.VISIBLE);
