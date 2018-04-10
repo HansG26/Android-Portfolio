@@ -42,7 +42,7 @@
 
         <TextView
             android:id="@+id/luxemburg_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/de_provincie_luxemburg" />
@@ -78,7 +78,7 @@
 
         <TextView
             android:id="@+id/turkije_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/turkije" />
@@ -119,7 +119,7 @@
 
         <TextView
             android:id="@+id/mont_ventoux_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/lager_dan_2000_meter" />
@@ -155,7 +155,7 @@
 
         <TextView
             android:id="@+id/italiaans_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/_4" />
@@ -196,7 +196,7 @@
 
         <TextView
             android:id="@+id/maas_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/frankrijk" />
@@ -237,7 +237,7 @@
 
         <TextView
             android:id="@+id/maan_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/oosten" />
@@ -285,7 +285,7 @@
 
         <TextView
             android:id="@+id/hoofdstad_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/zwitserland" />
@@ -311,7 +311,7 @@
 
         <TextView
             android:id="@+id/simple_minds_juist"
-            style="@style/juistantwoord"
+            style="@style/verbeterdantwoord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/boston" />

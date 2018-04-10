@@ -62,41 +62,57 @@ public class MainActivity extends AppCompatActivity {
         if (provincieLuxemburgRadio.isChecked()) {
             totaalPunten++;
             luxemburgJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            luxemburgJuistTextView.setTextColor(Color.RED);
         }
 
         if (turkijeRadio.isChecked()) {
             totaalPunten++;
             turkijeJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            turkijeJuistTextView.setTextColor(Color.RED);
         }
 
         if (montVentouxRadio.isChecked()) {
             totaalPunten++;
             montVentouxJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            montVentouxJuistTextView.setTextColor(Color.RED);
         }
 
         if (italiaansRadio.isChecked()) {
             totaalPunten++;
             italiaansJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            italiaansJuistTextView.setTextColor(Color.RED);
         }
 
         if (maasRadio.isChecked()) {
             totaalPunten++;
             maasJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            maasJuistTextView.setTextColor(Color.RED);
         }
 
         if (maanRadio.isChecked()) {
             totaalPunten++;
             maanJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            maanJuistTextView.setTextColor(Color.RED);
         }
 
         if (hoofdstad.equals("Zwitserland") || hoofdstad.equals("zwitserland")) {
             totaalPunten += 2;
             hoofdstadJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            hoofdstadJuistTextView.setTextColor(Color.RED);
         }
 
         if (simpleMinds.equals("Boston") || simpleMinds.equals("boston")) {
             totaalPunten += 2;
             simpleMindsJuistTextView.setTextColor(Color.GREEN);
+        } else {
+            simpleMindsJuistTextView.setTextColor(Color.RED);
         }
 
         Toast toast = Toast.makeText(this, maakBericht(totaalPunten), Toast.LENGTH_SHORT);
