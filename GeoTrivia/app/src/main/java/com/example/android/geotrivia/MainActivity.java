@@ -99,9 +99,7 @@ public class MainActivity extends AppCompatActivity {
             simpleMindsJuistTextView.setTextColor(Color.GREEN);
         }
 
-        String bericht = maakBericht(totaalPunten);
-
-        Toast toast = Toast.makeText(this, bericht, Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, maakBericht(totaalPunten), Toast.LENGTH_SHORT);
         toast.show();
 
     }
