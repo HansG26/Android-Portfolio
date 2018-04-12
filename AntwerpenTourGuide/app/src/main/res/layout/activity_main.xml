@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Layout die ervoor zorgt dat er rechts en links door de pagina's kan geswiped worden (incl. tabs) -->
+<?xml version="1.0" encoding="utf-8"?><!--Layout die ervoor zorgt dat er rechts en links door de pagina's kan geswiped worden (incl. tabs) -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -13,12 +12,12 @@
         android:background="@color/colorPrimary"
         android:textSize="4sp"
         app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabIndicatorHeight="3dp"
         app:tabMaxWidth="0dp"
         app:tabMode="fixed"
         app:tabSelectedTextColor="#FFFFFF"
-        app:tabTextColor="#AAAAAA"
-        app:tabIndicatorHeight="3dp"
-        app:tabIndicatorColor="@color/colorAccent"/>
+        app:tabTextColor="#AAAAAA" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
