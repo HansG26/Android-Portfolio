@@ -10,6 +10,11 @@ import android.view.Window;
 
 public class MainActivity extends AppCompatActivity {
 
+    // ViewPager die toelaat om links en rechts te swipen tussen pagina's
+    ViewPager viewPager;
+
+    // Horizontale layout met tabs
+    TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setElevation(0);
 
         setContentView(R.layout.activity_main);
-        // vindt de ViewPager in de main_activity.xml
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        // vindt de ViewPager in de main_activity.xml
+        viewPager = findViewById(R.id.viewpager);
 
         // creatie OverzichtAdapter
         OverzichtAdapter adapter = new OverzichtAdapter(getSupportFragmentManager());
@@ -30,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
         // koppelt OverzichtAdapter aan ViewPager
         viewPager.setAdapter(adapter);
 
-        final TabLayout tabLayout = findViewById(R.id.tabs);
+        tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        // Zet de AppBar indicator juist voor verschillende pagina's
-        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+        // Zet de Tabindicator kleur juist voor verschillende pagina's
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
@@ -43,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 viewPager.setCurrentItem(position);
-                switch(position) {
+                switch (position) {
                     case 0:
                         tabLayout.setSelectedTabIndicatorColor(getResources().getColor(R.color.musea));
                         break;
