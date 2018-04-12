@@ -18,11 +18,12 @@ import java.util.ArrayList;
  */
 public class RestaurantsFragment extends Fragment {
 
+    // ListView die we in dit fragment populaten met Restaurants
+    ListView mListView;
 
     public RestaurantsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,34 +33,34 @@ public class RestaurantsFragment extends Fragment {
         View view = inflater.inflate(R.layout.locatie_lijst, container, false);
 
         // vindt ListView die we gaan populaten met ListView items
-        final ListView listView = (ListView) view.findViewById(R.id.lijst);
+        mListView = (ListView) view.findViewById(R.id.lijst);
 
         // create lijst restaurants
         ArrayList<Locatie> locaties = new ArrayList<Locatie>();
 
-        locaties.add(new Locatie("Fish a'gogo", R.drawable.fish_a_gogo, "Handschoenmarkt 1", 4.5, "https://www.facebook.com/fishagogoantwerp" ));
-        locaties.add(new Locatie("Meat Factory", R.drawable.meat_factory, "Grote Markt 28", 4.5, "http://meat-factory.be/" ));
-        locaties.add(new Locatie("The Jane", R.drawable.the_jane, "Paradeplein 1", 4.5, "https://www.thejaneantwerp.com/" ));
-        locaties.add(new Locatie("Sombat Thai Cuisine", R.drawable.sombat_thai_cuisine, "Desguinlei 196", 4.5, "http://www.sombat.be/sombat_thai_cuisine/HOME_DINING.html" ));
-        locaties.add(new Locatie("Falafel Tof", R.drawable.falafel_tof, "Hoogstraat 32", 4.5, "http://nl-nl.facebook.com/falafeltofantwerpen" ));
-        locaties.add(new Locatie("Billie's Bier Kafetaria", R.drawable.billies_bier_kafetaria, "Kammenstraat 12", 4.5, "http://www.facebook.com/Billies-Bier-Kaf%C3%A9taria-172133052995844/" ));
-        locaties.add(new Locatie("Bia Mara", R.drawable.bia_mara, "Maalderijstraat 1", 4.5, "http://www.biamara.com/" ));
-        locaties.add(new Locatie("De Pottekijker", R.drawable.de_pottekijker, "Kaasrui 5", 4.5, "https://www.depottekijker.be/" ));
-        locaties.add(new Locatie("Restaurant Lux", R.drawable.restaurant_lux, "Adriaan Brouwerstraat 13", 4.5, "http://www.luxantwerp.com/" ));
-        locaties.add(new Locatie("Restaurant De Bomma", R.drawable.restaurant_de_bomma, "Suikerrui 16", 4, "http://www.restaurantdebomma.be/" ));
+        locaties.add(new Locatie("Fish a'gogo", R.drawable.fish_a_gogo, "Handschoenmarkt 1", 4.5, "https://www.facebook.com/fishagogoantwerp"));
+        locaties.add(new Locatie("Meat Factory", R.drawable.meat_factory, "Grote Markt 28", 4.5, "http://meat-factory.be/"));
+        locaties.add(new Locatie("The Jane", R.drawable.the_jane, "Paradeplein 1", 4.5, "https://www.thejaneantwerp.com/"));
+        locaties.add(new Locatie("Sombat Thai Cuisine", R.drawable.sombat_thai_cuisine, "Desguinlei 196", 4.5, "http://www.sombat.be/sombat_thai_cuisine/HOME_DINING.html"));
+        locaties.add(new Locatie("Falafel Tof", R.drawable.falafel_tof, "Hoogstraat 32", 4.5, "http://nl-nl.facebook.com/falafeltofantwerpen"));
+        locaties.add(new Locatie("Billie's Bier Kafetaria", R.drawable.billies_bier_kafetaria, "Kammenstraat 12", 4.5, "http://www.facebook.com/Billies-Bier-Kaf%C3%A9taria-172133052995844/"));
+        locaties.add(new Locatie("Bia Mara", R.drawable.bia_mara, "Maalderijstraat 1", 4.5, "http://www.biamara.com/"));
+        locaties.add(new Locatie("De Pottekijker", R.drawable.de_pottekijker, "Kaasrui 5", 4.5, "https://www.depottekijker.be/"));
+        locaties.add(new Locatie("Restaurant Lux", R.drawable.restaurant_lux, "Adriaan Brouwerstraat 13", 4.5, "http://www.luxantwerp.com/"));
+        locaties.add(new Locatie("Restaurant De Bomma", R.drawable.restaurant_de_bomma, "Suikerrui 16", 4, "http://www.restaurantdebomma.be/"));
 
 
         // Maak Locatieadapter die juiste list item views aanbiedt aan de listview
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
         // Koppel de adapter aan de listview
-        listView.setAdapter(adapter);
+        mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Locatie locatie = (Locatie) listView.getItemAtPosition(i);
+                Locatie locatie = (Locatie) mListView.getItemAtPosition(i);
                 String website = locatie.getWebsite();
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
 
@@ -70,7 +71,6 @@ public class RestaurantsFragment extends Fragment {
         });
 
         return view;
-
 
 
     }

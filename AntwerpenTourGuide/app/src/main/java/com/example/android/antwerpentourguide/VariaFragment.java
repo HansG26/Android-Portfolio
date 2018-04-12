@@ -18,12 +18,13 @@ import java.util.ArrayList;
  */
 public class VariaFragment extends Fragment {
 
+    // ListView die we in dit fragment populaten met Varia
+    ListView mListView;
 
     public VariaFragment() {
         // Required empty public constructor
     }
-
-
+    
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class VariaFragment extends Fragment {
         View view = inflater.inflate(R.layout.locatie_lijst, container, false);
 
         // vindt ListView die we gaan populaten met ListView items
-        final ListView listView = (ListView) view.findViewById(R.id.lijst);
+        mListView = view.findViewById(R.id.lijst);
 
         // create lijst met varia
         ArrayList<Locatie> locaties = new ArrayList<Locatie>();
@@ -49,18 +50,17 @@ public class VariaFragment extends Fragment {
         locaties.add(new Locatie("Vlaeykensgang", R.drawable.vlaeykensgang, "Oude Koornmarkt 16", 4.5, "https://www.visitantwerpen.be/nl/zien-doen/bezienswaardigheden/unieke-plekjes/vlaeykensgang-171277"));
 
 
-
         // Maak Locatieadapter die juiste list item views aanbiedt aan de listview
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
         // Koppel de adapter aan de listview
-        listView.setAdapter(adapter);
+        mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Locatie locatie = (Locatie) listView.getItemAtPosition(i);
+                Locatie locatie = (Locatie) mListView.getItemAtPosition(i);
                 String website = locatie.getWebsite();
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
 

@@ -18,11 +18,12 @@ import java.util.ArrayList;
  */
 public class MuseaFragment extends Fragment {
 
+    // ListView die we in dit fragment populaten met Musea
+    ListView mListView;
 
     public MuseaFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,7 +33,7 @@ public class MuseaFragment extends Fragment {
         View view = inflater.inflate(R.layout.locatie_lijst, container, false);
 
         // vindt ListView die we gaan populaten met locatie items
-        final ListView listView = (ListView) view.findViewById(R.id.lijst);
+        mListView = view.findViewById(R.id.lijst);
 
         // creatie lijst musea
         ArrayList<Locatie> locaties = new ArrayList<Locatie>();
@@ -50,12 +51,12 @@ public class MuseaFragment extends Fragment {
 
         final LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
-        listView.setAdapter(adapter);
+        mListView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Locatie locatie = (Locatie) listView.getItemAtPosition(i);
+                Locatie locatie = (Locatie) mListView.getItemAtPosition(i);
                 String website = locatie.getWebsite();
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
                 if (intent.resolveActivity(getActivity().getPackageManager()) != null) {
@@ -64,7 +65,7 @@ public class MuseaFragment extends Fragment {
             }
         });
 
-        return listView;
+        return view;
 
 
     }

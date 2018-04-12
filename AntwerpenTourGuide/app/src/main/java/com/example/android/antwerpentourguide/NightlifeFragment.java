@@ -18,11 +18,12 @@ import java.util.ArrayList;
  */
 public class NightlifeFragment extends Fragment {
 
+    // ListView die we in dit fragment populaten met Nightlife
+    ListView mListView;
 
     public NightlifeFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,7 +32,7 @@ public class NightlifeFragment extends Fragment {
         View view = inflater.inflate(R.layout.locatie_lijst, container, false);
 
         // vindt ListView die we gaan populaten met ListView items
-        final ListView listView = (ListView) view.findViewById(R.id.lijst);
+        mListView = view.findViewById(R.id.lijst);
 
         // create lijst nightlife locaties
         ArrayList<Locatie> locaties = new ArrayList<Locatie>();
@@ -54,13 +55,13 @@ public class NightlifeFragment extends Fragment {
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
         // Koppel de adapter aan de listview
-        listView.setAdapter(adapter);
+        mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Locatie locatie = (Locatie) listView.getItemAtPosition(i);
+                Locatie locatie = (Locatie) mListView.getItemAtPosition(i);
                 String website = locatie.getWebsite();
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
 
