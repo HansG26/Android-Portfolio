@@ -9,4 +9,10 @@
     <!-- Adressen Musea -->
     <string name="adres_museum_aan_de_stroom">Hanzestedenplaats 1</string>
 
+    <!-- Titels TabLayout -->
+    <string name="tab_musea_titel">Musea</string>
+    <string name="tab_restaurant_titel">Restaurant</string>
+    <string name="tab_nightlife_titel">Nightlife</string>
+    <string name="tab_varia_titel">Varia</string>
+
 </resources>

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = findViewById(R.id.viewpager);
 
         // creatie OverzichtAdapter
-        OverzichtAdapter adapter = new OverzichtAdapter(getSupportFragmentManager());
+        OverzichtAdapter adapter = new OverzichtAdapter(getSupportFragmentManager(), this);
 
         // koppelt OverzichtAdapter aan ViewPager
         viewPager.setAdapter(adapter);
