@@ -36,7 +36,7 @@ public class MuseaFragment extends Fragment {
         mListView = view.findViewById(R.id.lijst);
 
         // creatie lijst musea
-        ArrayList<Locatie> locaties = new ArrayList<Locatie>();
+        ArrayList<Locatie> locaties = new ArrayList<>();
 
         locaties.add(new Locatie("Museum Plantin-Moretus", R.drawable.museum_plantin_moretus, "Vrijdagmarkt 22", 4.5, "http://www.museumplantinmoretus.be/"));
         locaties.add(new Locatie("Red Star Line Museum", R.drawable.red_star_line_museum, "Montevideostraat 3", 4.5, "http://www.redstarline.be/nl"));
@@ -49,10 +49,13 @@ public class MuseaFragment extends Fragment {
         locaties.add(new Locatie("Museum De Reede", R.drawable.museum_de_reede, "Ernest Van Dijckkaai 7", 4.5, "https://museum-dereede.com/"));
         locaties.add(new Locatie("Paleis op de Meir", R.drawable.paleis_op_de_meir, "Meir 50", 4, "http://herita.be/erfgoedbeleving/erfgoedsite/paleis-op-de-meir-antwerpen"));
 
-        final LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
+        // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Musea)
+        LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
+        // Koppel adapter aan ListView, zodat adapter list item views aan ListView kan aanbieden
         mListView.setAdapter(adapter);
 
+        // zorgt voor openen juiste url bij klikken op list item
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {

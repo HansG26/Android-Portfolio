@@ -35,7 +35,7 @@ public class NightlifeFragment extends Fragment {
         mListView = view.findViewById(R.id.lijst);
 
         // create lijst nightlife locaties
-        ArrayList<Locatie> locaties = new ArrayList<Locatie>();
+        ArrayList<Locatie> locaties = new ArrayList<>();
 
         locaties.add(new Locatie("Dogma Cocktails", R.drawable.dogma_cocktails, "Wijngaardstraat 5", 4.5, "http://www.dogmacocktails.be/"));
         locaties.add(new Locatie("Kulminator", R.drawable.kulminator, "Vleminckveld 32", 4.5, "http://www.facebook.com/pages/Kulminator-friends-/222416071143354?sk=wall"));
@@ -48,13 +48,10 @@ public class NightlifeFragment extends Fragment {
         locaties.add(new Locatie("Bar Cartagena", R.drawable.bar_cartagena, "Vlasmarkt 31-33", 5, "http://www.barcartagena.be/"));
         locaties.add(new Locatie("Copa Cava", R.drawable.copa_cava, "Vlasmarkt 32", 4.5, "http://www.copacava.be/"));
 
-
-        // locaties.add();
-
-        // Maak Locatieadapter die juiste list item views aanbiedt aan de listview
+        // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Nightlife)
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
-        // Koppel de adapter aan de listview
+        // Koppel adapter aan ListView, zodat adapter list item views aan ListView kan aanbieden
         mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item

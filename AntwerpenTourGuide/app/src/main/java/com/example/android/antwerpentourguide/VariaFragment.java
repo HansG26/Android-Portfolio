@@ -24,7 +24,7 @@ public class VariaFragment extends Fragment {
     public VariaFragment() {
         // Required empty public constructor
     }
-    
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class VariaFragment extends Fragment {
         mListView = view.findViewById(R.id.lijst);
 
         // create lijst met varia
-        ArrayList<Locatie> locaties = new ArrayList<Locatie>();
+        ArrayList<Locatie> locaties = new ArrayList<>();
 
         // locaties.add();
         locaties.add(new Locatie("Centraal Station", R.drawable.centraal_station, "Koningin Astridplein 27", 4.5, "http://www.belgianrail.be/en/stations-and-train/search-a-station/6/antwerpen-centraal.aspx"));
@@ -50,10 +50,10 @@ public class VariaFragment extends Fragment {
         locaties.add(new Locatie("Vlaeykensgang", R.drawable.vlaeykensgang, "Oude Koornmarkt 16", 4.5, "https://www.visitantwerpen.be/nl/zien-doen/bezienswaardigheden/unieke-plekjes/vlaeykensgang-171277"));
 
 
-        // Maak Locatieadapter die juiste list item views aanbiedt aan de listview
+        // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Varia)
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
-        // Koppel de adapter aan de listview
+        // Koppel adapter aan ListView, zodat adapter list item views aan ListView kan aanbieden
         mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item

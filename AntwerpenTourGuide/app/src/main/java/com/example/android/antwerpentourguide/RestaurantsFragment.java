@@ -36,7 +36,7 @@ public class RestaurantsFragment extends Fragment {
         mListView = (ListView) view.findViewById(R.id.lijst);
 
         // create lijst restaurants
-        ArrayList<Locatie> locaties = new ArrayList<Locatie>();
+        ArrayList<Locatie> locaties = new ArrayList<>();
 
         locaties.add(new Locatie("Fish a'gogo", R.drawable.fish_a_gogo, "Handschoenmarkt 1", 4.5, "https://www.facebook.com/fishagogoantwerp"));
         locaties.add(new Locatie("Meat Factory", R.drawable.meat_factory, "Grote Markt 28", 4.5, "http://meat-factory.be/"));
@@ -50,10 +50,10 @@ public class RestaurantsFragment extends Fragment {
         locaties.add(new Locatie("Restaurant De Bomma", R.drawable.restaurant_de_bomma, "Suikerrui 16", 4, "http://www.restaurantdebomma.be/"));
 
 
-        // Maak Locatieadapter die juiste list item views aanbiedt aan de listview
+        // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Restaurants)
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
 
-        // Koppel de adapter aan de listview
+        // Koppel adapter aan ListView, zodat adapter list item views aan ListView kan aanbieden
         mListView.setAdapter(adapter);
 
         // zorgt voor openen juiste url bij klikken op list item
