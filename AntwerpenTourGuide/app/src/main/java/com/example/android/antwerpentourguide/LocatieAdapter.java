@@ -20,7 +20,7 @@ import java.util.ArrayList;
 
 public class LocatieAdapter extends ArrayAdapter<Locatie> {
 
-    Context context;
+    private Context context;
 
     public LocatieAdapter(Context context, ArrayList<Locatie> locaties) {
         super(context, 0, locaties);
@@ -31,22 +31,22 @@ public class LocatieAdapter extends ArrayAdapter<Locatie> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.locatie_item, parent, false);
         }
 
         Locatie locatie = getItem(position);
 
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.afbeelding);
+        ImageView imageView = listItemView.findViewById(R.id.afbeelding);
         Picasso.with(context).load(locatie.getImageResourceId()).fit().into(imageView);
 
-        TextView naamTextView = (TextView) listItemView.findViewById(R.id.naam);
+        TextView naamTextView = listItemView.findViewById(R.id.naam);
         naamTextView.setText(locatie.getNaam());
 
-        TextView adresTextView = (TextView) listItemView.findViewById(R.id.adres);
+        TextView adresTextView = listItemView.findViewById(R.id.adres);
         adresTextView.setText(locatie.getAdres());
 
-        TextView beoordelingTextView = (TextView) listItemView.findViewById(R.id.beoordeling);
+        TextView beoordelingTextView = listItemView.findViewById(R.id.beoordeling);
         beoordelingTextView.setText(String.valueOf(locatie.getBeoordeling()));
 
         return listItemView;
