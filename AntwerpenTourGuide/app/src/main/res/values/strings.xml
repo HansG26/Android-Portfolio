@@ -27,7 +27,7 @@
     <string name="adres_de_reede">Ernest Van Dijckkaai 7</string>
     <string name="adres_paleis_op_de_meir">Meir 50</string>
 
-    <!-- Link Musea-->
+    <!-- Links Musea-->
     <string name="link_plantin_moretus">http://www.museumplantinmoretus.be/</string>
     <string name="link_red_star_line">http://www.redstarline.be/nl</string>
     <string name="link_museum_aan_de_stroom">http://www.mas.be/nl</string>
@@ -63,7 +63,7 @@
     <string name="adres_restaurant_lux">Adriaan Brouwerstraat 13</string>
     <string name="adres_restaurant_de_bomma">Suikerrui 16</string>
 
-    <!-- Link Restaurants-->
+    <!-- Links Restaurants-->
     <string name="link_fish_agogo">https://www.facebook.com/fishagogoantwerp</string>
     <string name="link_meat_factory">http://meat-factory.be/</string>
     <string name="link_the_jane">https://www.thejaneantwerp.com/</string>
@@ -74,6 +74,42 @@
     <string name="link_de_pottekijker">https://www.depottekijker.be/</string>
     <string name="link_restaurant_lux">http://www.luxantwerp.com/</string>
     <string name="link_restaurant_de_bomma">http://www.restaurantdebomma.be/</string>
+
+    <!-- Namen Nightlife -->
+    <string name="naam_dogma_cocktails">Dogma Cocktails</string>
+    <string name="naam_kulminator">Kulminator</string>
+    <string name="naam_cocktails_at_nine">Cocktails at Nine</string>
+    <string name="naam_jones_co"><![CDATA[Jones & Co]]></string>
+    <string name="naam_de_muze">Jazzcafe de Muze</string>
+    <string name="naam_bierhuiske">\'t Antwaerps Bierhuiske</string>
+    <string name="naam_mollys">Molly\'s Irish Pub</string>
+    <string name="naam_burbure">Bar Burbure</string>
+    <string name="naam_cartagena">Bar Cartagena</string>
+    <string name="naam_copa_cava">Copa Cava</string>
+
+    <!-- Adressen Restaurants -->
+    <string name="adres_dogma_cocktails">Wijngaardstraat 5</string>
+    <string name="adres_kulminator">Vleminckveld 32</string>
+    <string name="adres_cocktails_at_nine">Lijnwaadmarkt 9</string>
+    <string name="adres_jones_co">Pelgrimstraat 7</string>
+    <string name="adres_de_muze">Melkmarkt 10</string>
+    <string name="adres_bierhuiske">Hoogstraat 14</string>
+    <string name="adres_mollys">Jezuietenrui 4</string>
+    <string name="adres_burbure">Vlaamsekaai 41</string>
+    <string name="adres_cartagena">Vlasmarkt 31–33</string>
+    <string name="adres_copa_cava">Vlasmarkt 32</string>
+
+    <!-- Links Nightlife-->
+    <string name="link_dogma_cocktails">http://www.dogmacocktails.be/</string>
+    <string name="link_kulminator">http://www.facebook.com/pages/Kulminator-friends-/222416071143354?sk=wall</string>
+    <string name="link_cocktails_at_nine">http://www.cocktailsatnine.be/</string>
+    <string name="link_jones_co">https://newplacestobe.com/jones-co-antwerpen/</string>
+    <string name="link_de_muze">http://jazzcafedemuze.be/</string>
+    <string name="link_bierhuiske">https://www.antwaerpsbierhuyske.com</string>
+    <string name="link_mollys">https://gwoodhouse1.wixsite.com/mollys</string>
+    <string name="link_burbure">http://www.barburbure.be/</string>
+    <string name="link_cartagena">http://www.barcartagena.be/</string>
+    <string name="link_copa_cava">http://www.copacava.be/</string>
 
     <!-- Titels TabLayout -->
     <string name="tab_musea_titel">Musea</string>

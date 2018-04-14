@@ -37,16 +37,16 @@ public class NightlifeFragment extends Fragment {
         // create lijst nightlife locaties
         ArrayList<Locatie> locaties = new ArrayList<>();
 
-        locaties.add(new Locatie("Dogma Cocktails", R.drawable.dogma_cocktails, "Wijngaardstraat 5", 4.5, "http://www.dogmacocktails.be/"));
-        locaties.add(new Locatie("Kulminator", R.drawable.kulminator, "Vleminckveld 32", 4.5, "http://www.facebook.com/pages/Kulminator-friends-/222416071143354?sk=wall"));
-        locaties.add(new Locatie("Cocktails at Nine", R.drawable.cocktails_at_nine, "Lijnwaadmarkt 9", 4, "http://www.cocktailsatnine.be/"));
-        locaties.add(new Locatie("Jones & Co", R.drawable.jones_co, "Pelgrimstraat 7", 4.5, "https://newplacestobe.com/jones-co-antwerpen/"));
-        locaties.add(new Locatie("Jazzcafe de Muze", R.drawable.jazzcafe_de_muze, "Melkmarkt 10", 4, "http://jazzcafedemuze.be/"));
-        locaties.add(new Locatie("'t Antwaerps Bierhuiske", R.drawable.antwaerps_bierhuiske, "Hoogstraat 14", 5, "https://www.antwaerpsbierhuyske.com"));
-        locaties.add(new Locatie("Molly's Irish Pub", R.drawable.mollys, "Jezuietenrui 4", 5, "https://gwoodhouse1.wixsite.com/mollys"));
-        locaties.add(new Locatie("Bar Burbure", R.drawable.bar_burbure, "Vlaamsekaai 41", 4, "http://www.barburbure.be/"));
-        locaties.add(new Locatie("Bar Cartagena", R.drawable.bar_cartagena, "Vlasmarkt 31-33", 5, "http://www.barcartagena.be/"));
-        locaties.add(new Locatie("Copa Cava", R.drawable.copa_cava, "Vlasmarkt 32", 4.5, "http://www.copacava.be/"));
+        locaties.add(new Locatie(getString(R.string.naam_dogma_cocktails), R.drawable.dogma_cocktails, getString(R.string.adres_dogma_cocktails), 4.5, getString(R.string.link_dogma_cocktails)));
+        locaties.add(new Locatie(getString(R.string.naam_kulminator), R.drawable.kulminator, getString(R.string.adres_kulminator), 4.5, getString(R.string.link_kulminator)));
+        locaties.add(new Locatie(getString(R.string.naam_cocktails_at_nine), R.drawable.cocktails_at_nine, getString(R.string.adres_cocktails_at_nine), 4, getString(R.string.link_cocktails_at_nine)));
+        locaties.add(new Locatie(getString(R.string.naam_jones_co), R.drawable.jones_co, getString(R.string.adres_jones_co), 4.5, getString(R.string.link_jones_co)));
+        locaties.add(new Locatie(getString(R.string.naam_de_muze), R.drawable.jazzcafe_de_muze, getString(R.string.adres_de_muze), 4, getString(R.string.link_de_muze)));
+        locaties.add(new Locatie(getString(R.string.naam_bierhuiske), R.drawable.antwaerps_bierhuiske, getString(R.string.adres_bierhuiske), 5, getString(R.string.link_bierhuiske)));
+        locaties.add(new Locatie(getString(R.string.naam_mollys), R.drawable.mollys, getString(R.string.adres_mollys), 5, getString(R.string.link_mollys)));
+        locaties.add(new Locatie(getString(R.string.naam_burbure), R.drawable.bar_burbure, getString(R.string.adres_burbure), 4, getString(R.string.link_burbure)));
+        locaties.add(new Locatie(getString(R.string.naam_cartagena), R.drawable.bar_cartagena, getString(R.string.adres_cartagena), 5, getString(R.string.link_cartagena)));
+        locaties.add(new Locatie(getString(R.string.naam_copa_cava), R.drawable.copa_cava, getString(R.string.adres_copa_cava), 4.5, getString(R.string.link_copa_cava)));
 
         // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Nightlife)
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
