@@ -13,7 +13,7 @@ public class Locatie {
     private double mBeoordeling;
     private String mWebsite;
 
-    public Locatie(String naam, int imageResourceId, String adres, double beoordeling, String website) {
+    Locatie(String naam, int imageResourceId, String adres, double beoordeling, String website) {
         this.mNaam = naam;
         this.mImageResourceId = imageResourceId;
         this.mAdres = adres;
