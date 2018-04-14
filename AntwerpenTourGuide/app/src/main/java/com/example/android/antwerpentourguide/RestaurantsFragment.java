@@ -38,16 +38,16 @@ public class RestaurantsFragment extends Fragment {
         // create lijst restaurants
         ArrayList<Locatie> locaties = new ArrayList<>();
 
-        locaties.add(new Locatie("Fish a'gogo", R.drawable.fish_a_gogo, "Handschoenmarkt 1", 4.5, "https://www.facebook.com/fishagogoantwerp"));
-        locaties.add(new Locatie("Meat Factory", R.drawable.meat_factory, "Grote Markt 28", 4.5, "http://meat-factory.be/"));
-        locaties.add(new Locatie("The Jane", R.drawable.the_jane, "Paradeplein 1", 4.5, "https://www.thejaneantwerp.com/"));
-        locaties.add(new Locatie("Sombat Thai Cuisine", R.drawable.sombat_thai_cuisine, "Desguinlei 196", 4.5, "http://www.sombat.be/sombat_thai_cuisine/HOME_DINING.html"));
-        locaties.add(new Locatie("Falafel Tof", R.drawable.falafel_tof, "Hoogstraat 32", 4.5, "http://nl-nl.facebook.com/falafeltofantwerpen"));
-        locaties.add(new Locatie("Billie's Bier Kafetaria", R.drawable.billies_bier_kafetaria, "Kammenstraat 12", 4.5, "http://www.facebook.com/Billies-Bier-Kaf%C3%A9taria-172133052995844/"));
-        locaties.add(new Locatie("Bia Mara", R.drawable.bia_mara, "Maalderijstraat 1", 4.5, "http://www.biamara.com/"));
-        locaties.add(new Locatie("De Pottekijker", R.drawable.de_pottekijker, "Kaasrui 5", 4.5, "https://www.depottekijker.be/"));
-        locaties.add(new Locatie("Restaurant Lux", R.drawable.restaurant_lux, "Adriaan Brouwerstraat 13", 4.5, "http://www.luxantwerp.com/"));
-        locaties.add(new Locatie("Restaurant De Bomma", R.drawable.restaurant_de_bomma, "Suikerrui 16", 4, "http://www.restaurantdebomma.be/"));
+        locaties.add(new Locatie(getString(R.string.naam_fish_agogo), R.drawable.fish_a_gogo, getString(R.string.adres_fish_agogo), 4.5, getString(R.string.link_fish_agogo)));
+        locaties.add(new Locatie(getString(R.string.naam_meat_factory), R.drawable.meat_factory, getString(R.string.adres_meat_factory), 4.5, getString(R.string.link_meat_factory)));
+        locaties.add(new Locatie(getString(R.string.naam_the_jane), R.drawable.the_jane, getString(R.string.adres_the_jane), 4.5, getString(R.string.link_the_jane)));
+        locaties.add(new Locatie(getString(R.string.naam_sombat_thai_cuisine), R.drawable.sombat_thai_cuisine, getString(R.string.adres_sombat_thai_cuisine), 4.5, getString(R.string.link_sombat_thai_cuisine)));
+        locaties.add(new Locatie(getString(R.string.naam_falafel_tof), R.drawable.falafel_tof, getString(R.string.adres_falafel_tof), 4.5, getString(R.string.link_falafel_tof)));
+        locaties.add(new Locatie(getString(R.string.naam_billies_bier_kafetaria), R.drawable.billies_bier_kafetaria, getString(R.string.adres_billes_bier_kafetaria), 4.5, getString(R.string.link_billies_bier_kafetaria)));
+        locaties.add(new Locatie(getString(R.string.naam_bia_mara), R.drawable.bia_mara, getString(R.string.adres_bia_mara), 4.5, getString(R.string.link_bia_mara)));
+        locaties.add(new Locatie(getString(R.string.naam_de_pottekijker), R.drawable.de_pottekijker, getString(R.string.adres_de_pottekijker), 4.5, getString(R.string.link_de_pottekijker)));
+        locaties.add(new Locatie(getString(R.string.naam_restaurant_lux), R.drawable.restaurant_lux, getString(R.string.adres_restaurant_lux), 4.5, getString(R.string.link_restaurant_lux)));
+        locaties.add(new Locatie(getString(R.string.naam_restaurant_de_bomma), R.drawable.restaurant_de_bomma, getString(R.string.adres_restaurant_de_bomma), 4, getString(R.string.link_restaurant_de_bomma)));
 
 
         // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Restaurants)
