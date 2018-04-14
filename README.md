@@ -9,6 +9,24 @@ Android apps I worked on
 
 ## Antwerp Tour Guide ##
 
+#### *Created an app to guide a user around Antwerp* ####
+
+
+<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide3.png" width="250"/>
+
+
+### Specifications ###
+* User can navigate between lists using a central screen, a NavDrawer, or a ViewPager
+* Each list item contains information about a museum, restaurant, nightlife or varia
+* Contains a custom object for storing location information
+* Uses a custom ArrayAdapter to populate the layout with views based on instances of the custom class
+
+### What I learned ###
+* Selecting a data structure to store lists of information
+* Building layouts to display those lists of data
+* Navigating between those lists using a ViewPager
+* Creating my own custom class from scratch
+
 ## GeoTrivia ##
 
 #### *Designed and implemented a quiz app about geography* ####
