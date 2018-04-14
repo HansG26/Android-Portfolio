@@ -3,6 +3,12 @@
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- Titels TabLayout -->
+    <string name="tab_musea_titel">Musea</string>
+    <string name="tab_restaurant_titel">Restaurant</string>
+    <string name="tab_nightlife_titel">Nightlife</string>
+    <string name="tab_varia_titel">Varia</string>
+
     <!-- Namen Musea -->
     <string name="naam_museum_aan_de_stroom">Museum aan de Stroom</string>
     <string name="naam_plantin_moretus">Museum Plantin-Moretus</string>
@@ -111,11 +117,40 @@
     <string name="link_cartagena">http://www.barcartagena.be/</string>
     <string name="link_copa_cava">http://www.copacava.be/</string>
 
-    <!-- Titels TabLayout -->
-    <string name="tab_musea_titel">Musea</string>
-    <string name="tab_restaurant_titel">Restaurant</string>
-    <string name="tab_nightlife_titel">Nightlife</string>
-    <string name="tab_varia_titel">Varia</string>
+    <!-- Namen Nightlife -->
+    <string name="naam_centraal_station">Centraal Station</string>
+    <string name="naam_grote_markt">Grote Markt van Antwerpen</string>
+    <string name="naam_kathedraal">Onze-Lieve-Vrouwekathedraal</string>
+    <string name="naam_cogels">Cogels Osylei</string>
+    <string name="naam_sint_pauluskerk">Sint-Pauluskerk</string>
+    <string name="naam_stadhuis">Stadhuis</string>
+    <string name="naam_st_annas_tunnel">St Anna\'s tunnel</string>
+    <string name="naam_carolus_borromeus">Carolus Borromeus kerk</string>
+    <string name="naam_meir">Meir</string>
+    <string name="naam_vlaeykensgang">Vlaeykensgang</string>
 
+    <!-- Adressen Varia -->
+    <string name="adres_centraal_station">Koningin Astridplein 27</string>
+    <string name="adres_grote_markt">Historisch Centrum</string>
+    <string name="adres_kathedraal">Groenplaats 21</string>
+    <string name="adres_cogels">Zurenborg</string>
+    <string name="adres_sint_pauluskerk">Veemarkt 14</string>
+    <string name="adres_stadhuis">Grote markt</string>
+    <string name="adres_st_annas_tunnel">Sint-Jansvliet</string>
+    <string name="adres_carolus_borromeus">Hendrik Conscienceplein 12</string>
+    <string name="adres_meir">Leysstraat</string>
+    <string name="adres_vlaeykensgang">Oude Koornmarkt 16</string>
+
+    <!-- Links Varia-->
+    <string name="link_centraal_station">http://www.belgianrail.be/en/stations-and-train/search-a-station/6/antwerpen-centraal.aspx</string>
+    <string name="link_grote_markt">https://www.visitantwerpen.be/</string>
+    <string name="link_kathedraal">http://www.dekathedraal.be/</string>
+    <string name="link_cogels">http://www.cogelsosylei.com/cogels-oyslei-antwerp-berchem</string>
+    <string name="link_sint_pauluskerk">https://www.kerknet.be/organisatie/sint-paulusparochie-antwerpen</string>
+    <string name="link_stadhuis">https://www.antwerpen.be/nl/overzicht/stadhuis-van-antwerpen</string>
+    <string name="link_st_annas_tunnel">https://www.visitantwerpen.be/en/transport-antwerp/pedestrian-and-cyclists-tunnel</string>
+    <string name="link_carolus_borromeus">http://carolusborromeus.com/</string>
+    <string name="link_meir">http://www.allesoverantwerpen.nl/shopping/winkelstraten/meir.htm</string>
+    <string name="link_vlaeykensgang">https://www.visitantwerpen.be/nl/zien-doen/bezienswaardigheden/unieke-plekjes/vlaeykensgang-171277</string>
 
 </resources>

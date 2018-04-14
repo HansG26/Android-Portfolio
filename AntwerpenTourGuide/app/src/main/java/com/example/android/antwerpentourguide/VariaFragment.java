@@ -38,16 +38,16 @@ public class VariaFragment extends Fragment {
         ArrayList<Locatie> locaties = new ArrayList<>();
 
         // locaties.add();
-        locaties.add(new Locatie("Centraal Station", R.drawable.centraal_station, "Koningin Astridplein 27", 4.5, "http://www.belgianrail.be/en/stations-and-train/search-a-station/6/antwerpen-centraal.aspx"));
-        locaties.add(new Locatie("Grote Markt van Antwerpen", R.drawable.grote_markt, "Historisch Centrum", 4.5, "https://www.visitantwerpen.be/"));
-        locaties.add(new Locatie("Onze-Lieve-Vrouwekathedraal", R.drawable.olv_kathedraal, "Groenplaats 21", 4.5, "http://www.dekathedraal.be/"));
-        locaties.add(new Locatie("Cogels Osylei", R.drawable.cogels_osylei, "Zurenborg", 4.5, "http://www.cogelsosylei.com/cogels-oyslei-antwerp-berchem"));
-        locaties.add(new Locatie("Sint-Pauluskerk", R.drawable.sint_paulus_kerk, "Veemarkt 14", 4.5, "https://www.kerknet.be/organisatie/sint-paulusparochie-antwerpen"));
-        locaties.add(new Locatie("Stadhuis", R.drawable.stadhuis, "Grote markt", 4.5, "https://www.antwerpen.be/nl/overzicht/stadhuis-van-antwerpen"));
-        locaties.add(new Locatie("St Anna's tunnel", R.drawable.st_anna_tunnel, "Sint-Jansvliet", 4, "https://www.visitantwerpen.be/en/transport-antwerp/pedestrian-and-cyclists-tunnel"));
-        locaties.add(new Locatie("Carolus Borromeus kerk", R.drawable.carolus_borromeus_kerk, "Hendrik Conscienceplein 12", 4.5, "http://carolusborromeus.com/"));
-        locaties.add(new Locatie("Meir", R.drawable.meir, "Leysstraat", 4, "http://www.allesoverantwerpen.nl/shopping/winkelstraten/meir.htm"));
-        locaties.add(new Locatie("Vlaeykensgang", R.drawable.vlaeykensgang, "Oude Koornmarkt 16", 4.5, "https://www.visitantwerpen.be/nl/zien-doen/bezienswaardigheden/unieke-plekjes/vlaeykensgang-171277"));
+        locaties.add(new Locatie(getString(R.string.naam_centraal_station), R.drawable.centraal_station, getString(R.string.adres_centraal_station), 4.5, getString(R.string.link_centraal_station)));
+        locaties.add(new Locatie(getString(R.string.naam_grote_markt), R.drawable.grote_markt, getString(R.string.adres_grote_markt), 4.5, getString(R.string.link_grote_markt)));
+        locaties.add(new Locatie(getString(R.string.naam_kathedraal), R.drawable.olv_kathedraal, getString(R.string.adres_kathedraal), 4.5, getString(R.string.link_kathedraal)));
+        locaties.add(new Locatie(getString(R.string.naam_cogels), R.drawable.cogels_osylei, getString(R.string.adres_cogels), 4.5, getString(R.string.link_cogels)));
+        locaties.add(new Locatie(getString(R.string.naam_sint_pauluskerk), R.drawable.sint_paulus_kerk, getString(R.string.adres_sint_pauluskerk), 4.5, getString(R.string.link_sint_pauluskerk)));
+        locaties.add(new Locatie(getString(R.string.naam_stadhuis), R.drawable.stadhuis, getString(R.string.adres_stadhuis), 4.5, getString(R.string.link_stadhuis)));
+        locaties.add(new Locatie(getString(R.string.naam_st_annas_tunnel), R.drawable.st_anna_tunnel, getString(R.string.adres_st_annas_tunnel), 4, getString(R.string.link_st_annas_tunnel)));
+        locaties.add(new Locatie(getString(R.string.naam_carolus_borromeus), R.drawable.carolus_borromeus_kerk, getString(R.string.adres_carolus_borromeus), 4.5, getString(R.string.link_carolus_borromeus)));
+        locaties.add(new Locatie(getString(R.string.naam_meir), R.drawable.meir, getString(R.string.adres_meir), 4, getString(R.string.link_meir)));
+        locaties.add(new Locatie(getString(R.string.naam_vlaeykensgang), R.drawable.vlaeykensgang, getString(R.string.adres_vlaeykensgang), 4.5, getString(R.string.link_vlaeykensgang)));
 
 
         // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Varia)
