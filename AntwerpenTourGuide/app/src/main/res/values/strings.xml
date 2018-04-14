@@ -4,15 +4,48 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Namen Musea -->
-    <string name="museum_aan_de_stroom">Museum aan de Stroom</string>
+    <string name="naam_museum_aan_de_stroom">Museum aan de Stroom</string>
+    <string name="naam_plantin_moretus">Museum Plantin-Moretus</string>
+    <string name="naam_red_star_line">Red Star Line Museum</string>
+    <string name="naam_rubenshuis">Rubenshuis</string>
+    <string name="naam_middelheim">Middelheimmuseum</string>
+    <string name="naam_mayer_van_den_bergh">Museum Mayer van den Bergh</string>
+    <string name="naam_het_steen">Het Steen</string>
+    <string name="naam_snijders_rockoxhuis"><![CDATA[Snijders&Rockoxhuis]]></string>
+    <string name="naam_de_reede">Museum De Reede</string>
+    <string name="naam_paleis_op_de_meir">Paleis op de Meir</string>
 
     <!-- Adressen Musea -->
+    <string name="adres_plantin_moretus">Vrijdagmarkt 22</string>
+    <string name="adres_red_star_line">Montevideostraat 3</string>
     <string name="adres_museum_aan_de_stroom">Hanzestedenplaats 1</string>
+    <string name="adres_rubenshuis">Wapper 9–11</string>
+    <string name="adres_middelheim">Middelheimlaan 61</string>
+    <string name="adres_mayer_van_den_bergh">Lange Gasthuisstraat 19</string>
+    <string name="adres_het_steen">Steenplein 1</string>
+    <string name="adres_snijders_rockoxhuis">Keizerstraat 12</string>
+    <string name="adres_de_reede">Ernest Van Dijckkaai 7</string>
+    <string name="adres_paleis_op_de_meir">Meir 50</string>
+
+    <!-- Link Musea-->
+    <string name="link_plantin_moretus">http://www.museumplantinmoretus.be/</string>
+    <string name="link_red_star_line">http://www.redstarline.be/nl</string>
+    <string name="link_museum_aan_de_stroom">http://www.mas.be/nl</string>
+    <string name="link_rubenshuis">http://www.rubenshuis.be/nl/Museum_Rubenshuis_EN/Rubenshuis_EN.html</string>
+    <string name="link_middelheim">http://www.middelheimmuseum.be/nl</string>
+    <string name="link_mayer_van_den_bergh">http://www.museummayervandenbergh.be/</string>
+    <string name="link_het_steen">https://www.visitantwerpen.be/en/sightseeing/architecture-monuments/steen-castle</string>
+    <string name="link_snijders_rockoxhuis">https://www.snijdersrockoxhuis.be/</string>
+    <string name="link_de_reede">https://museum-dwereede.com/</string>
+    <string name="link_paleis_op_de_meir">http://herita.be/erfgoedbeleving/erfgoedsite/paleis-op-de-meir-antwerpen</string>
 
     <!-- Titels TabLayout -->
     <string name="tab_musea_titel">Musea</string>
     <string name="tab_restaurant_titel">Restaurant</string>
     <string name="tab_nightlife_titel">Nightlife</string>
     <string name="tab_varia_titel">Varia</string>
+
+
+
 
 </resources>

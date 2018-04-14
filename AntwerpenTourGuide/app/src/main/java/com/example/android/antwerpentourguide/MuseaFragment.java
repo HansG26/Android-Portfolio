@@ -38,16 +38,16 @@ public class MuseaFragment extends Fragment {
         // creatie lijst musea
         ArrayList<Locatie> locaties = new ArrayList<>();
 
-        locaties.add(new Locatie("Museum Plantin-Moretus", R.drawable.museum_plantin_moretus, "Vrijdagmarkt 22", 4.5, "http://www.museumplantinmoretus.be/"));
-        locaties.add(new Locatie("Red Star Line Museum", R.drawable.red_star_line_museum, "Montevideostraat 3", 4.5, "http://www.redstarline.be/nl"));
-        locaties.add(new Locatie("Museum aan de Stroom", R.drawable.museum_aan_de_stroom, "Hanzestedenplaats 1", 4.5, "http://www.mas.be/nl"));
-        locaties.add(new Locatie("Rubenshuis", R.drawable.rubenshuis_museum, "Wapper 9-11", 4.5, "http://www.rubenshuis.be/nl/Museum_Rubenshuis_EN/Rubenshuis_EN.html"));
-        locaties.add(new Locatie("Middelheimmuseum", R.drawable.middelheimmuseum, "Middelheimlaan 61", 4.5, "http://www.middelheimmuseum.be/nl"));
-        locaties.add(new Locatie("Museum Mayer van den Bergh", R.drawable.mayer_van_den_bergh_museum, "Lange Gasthuisstraat 19", 4.5, "http://www.museummayervandenbergh.be/"));
-        locaties.add(new Locatie("Het Steen", R.drawable.het_steen, "Steenplein 1", 3.5, "https://www.visitantwerpen.be/en/sightseeing/architecture-monuments/steen-castle"));
-        locaties.add(new Locatie("Snijders&Rockoxhuis", R.drawable.rockoxhuis, "Keizerstraat 12", 4.5, "https://www.snijdersrockoxhuis.be/"));
-        locaties.add(new Locatie("Museum De Reede", R.drawable.museum_de_reede, "Ernest Van Dijckkaai 7", 4.5, "https://museum-dereede.com/"));
-        locaties.add(new Locatie("Paleis op de Meir", R.drawable.paleis_op_de_meir, "Meir 50", 4, "http://herita.be/erfgoedbeleving/erfgoedsite/paleis-op-de-meir-antwerpen"));
+        locaties.add(new Locatie(getString(R.string.naam_plantin_moretus), R.drawable.museum_plantin_moretus, getString(R.string.adres_plantin_moretus), 4.5, getString(R.string.link_plantin_moretus)));
+        locaties.add(new Locatie(getString(R.string.naam_red_star_line), R.drawable.red_star_line_museum, getString(R.string.adres_red_star_line), 4.5, getString(R.string.link_red_star_line)));
+        locaties.add(new Locatie(getString(R.string.naam_museum_aan_de_stroom), R.drawable.museum_aan_de_stroom, getString(R.string.adres_museum_aan_de_stroom), 4.5, getString(R.string.link_museum_aan_de_stroom)));
+        locaties.add(new Locatie(getString(R.string.naam_rubenshuis), R.drawable.rubenshuis_museum, getString(R.string.adres_rubenshuis), 4.5, getString(R.string.link_rubenshuis)));
+        locaties.add(new Locatie(getString(R.string.naam_middelheim), R.drawable.middelheimmuseum, getString(R.string.adres_middelheim), 4.5, getString(R.string.link_middelheim)));
+        locaties.add(new Locatie(getString(R.string.naam_mayer_van_den_bergh), R.drawable.mayer_van_den_bergh_museum, getString(R.string.adres_mayer_van_den_bergh), 4.5, getString(R.string.link_mayer_van_den_bergh)));
+        locaties.add(new Locatie(getString(R.string.naam_het_steen), R.drawable.het_steen, getString(R.string.adres_het_steen), 3.5, getString(R.string.link_het_steen)));
+        locaties.add(new Locatie(getString(R.string.naam_snijders_rockoxhuis), R.drawable.rockoxhuis, getString(R.string.adres_snijders_rockoxhuis), 4.5, getString(R.string.link_snijders_rockoxhuis)));
+        locaties.add(new Locatie(getString(R.string.naam_de_reede), R.drawable.museum_de_reede, getString(R.string.adres_de_reede), 4.5, getString(R.string.link_de_reede)));
+        locaties.add(new Locatie(getString(R.string.naam_paleis_op_de_meir), R.drawable.paleis_op_de_meir, getString(R.string.adres_paleis_op_de_meir), 4, getString(R.string.link_paleis_op_de_meir)));
 
         // Maakt nieuwe LocatieAdapter die als data een ArrayList met Locaties krijgt (Musea)
         LocatieAdapter adapter = new LocatieAdapter(getContext(), locaties);
