@@ -7,6 +7,24 @@ Android apps I worked on
 
 ## Book Listing App ##
 
+#### *Created an app to list books on a given search term using the Google Books API* ####
+
+<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp3.png" width="250"/>
+
+### Specifications ###
+
+* User can enter a word or phrase to serve as a search query
+* Fetches book data related to the search query via an HTTP request from the Google Books API
+* Uses classes such as HttpUriRequest and HttpURLConnection
+* Checks whether device is connected to the internet and responds properly
+* Network call occurs off the UI thread using an AsyncTaskLoader
+
+### What I learned ###
+
+* Fetching data from an API
+* Using an AsyncTask
+* Parsing a JSON response
+
 ## Antwerp Tour Guide ##
 
 #### *Created an app to guide a user around Antwerp* ####
