@@ -5,7 +5,7 @@ Android apps I worked on
 
 ## Scoop ##
 
-#### Created an app to show recent news stories using the Guardian API ####
+#### *Created an app to show recent news stories using the Guardian API* ####
 
 <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop3.png" width="250"/>
 
