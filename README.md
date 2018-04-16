@@ -5,7 +5,7 @@ Android apps I worked on
 
 #### *Created an app to trock the inventory of a store* ####
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp3.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp2.png" width="250"/>
+<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp3.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp2.png" width="250"/>
 
 ### Specifications ###
 
