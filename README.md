@@ -5,6 +5,26 @@ Android apps I worked on
 
 ## Scoop ##
 
+#### Created an app to show recent news stories using the Guardian API ####
+
+<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop3.png" width="250"/>
+
+### Specifications ###
+
+* User can choose to view all topics or just a specific one
+* App remembers the preference of the user by making use of SharedPreferences
+* App queries the Guardian api to fetch news stories related to the topic chosen by the user
+* Clicking on a story opens it in the user’s browser
+
+### What I learned ###
+
+* Connecting to an API
+* Parsing the response of an API
+* Working with SharedPreferences
+* Handling errors
+* Updating information regularly
+* Doing network operations
+
 ## Book Listing App ##
 
 #### *Created an app to list books on a given search term using the Google Books API* ####
