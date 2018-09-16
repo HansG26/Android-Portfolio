@@ -5,7 +5,7 @@ Android apps I worked on
 
 #### *Created an app to track the inventory of a store* ####
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp3.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/InventoryApp2.png" width="250"/>
+<img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/InventoryApp3.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/InventoryApp1.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/InventoryApp2.png" width="250"/>
 
 ### Specifications ###
 
@@ -28,7 +28,7 @@ Android apps I worked on
 
 #### *Created an app to show recent news stories using the Guardian API* ####
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/Scoop3.png" width="250"/>
+<img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/Scoop1.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/Scoop2.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/Scoop3.png" width="250"/>
 
 ### Specifications ###
 
@@ -50,7 +50,7 @@ Android apps I worked on
 
 #### *Created an app to list books on a given search term using the Google Books API* ####
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/BookListingApp3.png" width="250"/>
+<img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/BookListingApp1.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/BookListingApp2.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/BookListingApp3.png" width="250"/>
 
 ### Specifications ###
 
@@ -71,7 +71,7 @@ Android apps I worked on
 #### *Created an app to guide a user around Antwerp* ####
 
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide1.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide2.png" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/AntwerpTourGuide3.png" width="250"/>
+<img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/AntwerpTourGuide1.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/AntwerpTourGuide2.png" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/AntwerpTourGuide3.png" width="250"/>
 
 
 ### Specifications ###
@@ -90,7 +90,7 @@ Android apps I worked on
 
 #### *Designed and implemented a quiz app about geography* ####
 
-<img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/GeoTrivia1.png?raw=true" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/GeoTrivia2.png?raw=true" width="250"/> <img src="https://github.com/HansG26/Portfolio/blob/master/Screenshots/GeoTrivia3.png?raw=true" width="250"/>
+<img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/GeoTrivia1.png?raw=true" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/GeoTrivia2.png?raw=true" width="250"/> <img src="https://github.com/HansG26/Android-Portfolio/blob/master/Screenshots/GeoTrivia3.png?raw=true" width="250"/>
 
 ### Specifications ###
 
